@@ -1,0 +1,4 @@
+[90011:775:0823/201349.462231:INFO:CONSOLE(37)] "🔨%c @rambler-components/ad:  %cБиблиотека Capirs.js не готова, ожидаем on-ready колбек color: #3564F7; font-weight: 600; color: #0B6089; font-weight: 500; font-style: italic;", source: https://www.afisha.ru/js/vendors~desktop~mobile.a4f4e203896edca83205.chunk.js (37)
+[90011:775:0823/201350.747461:INFO:CONSOLE(37)] "🔨%c @rambler-components/ad:  %cВызов Capirs.js on-ready колбека color: #3564F7; font-weight: 600; color: #0B6089; font-weight: 500; font-style: italic;", source: https://www.afisha.ru/js/vendors~desktop~mobile.a4f4e203896edca83205.chunk.js (37)
+[90011:775:0823/201352.086510:INFO:CONSOLE(1)] "Feed fetch src failed", source: https://ssp.rambler.ru/capirs_async.js (1)
+[90011:775:0823/201421.883080:WARNING:pref_notifier_impl.cc(40)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

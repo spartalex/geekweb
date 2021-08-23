@@ -1,0 +1,6 @@
+2021/08/23-20:13:43.283 4c03 Reusing MANIFEST /Users/a.smirnov/Projects/geekbrains/geek_web_ui_tests/src/main/resources/chrome_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2021/08/23-20:13:43.287 4c03 Recovering log #3
+2021/08/23-20:13:43.289 4c03 Reusing old log /Users/a.smirnov/Projects/geekbrains/geek_web_ui_tests/src/main/resources/chrome_profile/Default/Local Storage/leveldb/000003.log 
+2021/08/23-20:13:56.175 5407 Level-0 table #5: started
+2021/08/23-20:13:56.298 5407 Level-0 table #5: 83182 bytes OK
+2021/08/23-20:13:56.351 5407 Delete type=0 #3
