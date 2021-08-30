@@ -23,6 +23,7 @@ public class CrmTests {
         driver.get("https://crm.geekbrains.space/expense-request/");
         driver.findElement(By.xpath("//a[@title='Создать заявку на расход']")).click();
 
+
         WebDriverWait webDriverWait = new WebDriverWait(driver, 5);
         webDriverWait.until(ExpectedConditions.presenceOfElementLocated(By.name("crm_expense_request[description]")));
         driver.findElement(By.name("crm_expense_request[description]")).sendKeys("test");

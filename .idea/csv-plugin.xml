@@ -17,7 +17,28 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/src/main/java/ru/geekbrains/lesson6/CreateExpensePage.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/src/main/java/ru/geekbrains/lesson6/ExpensesSubMenu.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/src/test/java/ru/geekbrains/lesson4/BoxTest.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/src/test/java/ru/geekbrains/lesson6/PageObjectTest.java">
           <value>
             <Attribute>
               <option name="separator" value=";" />
