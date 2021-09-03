@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: ru.geekbrains.lesson6.PageObjectTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 16.355 s <<< FAILURE! - in ru.geekbrains.lesson6.PageObjectTest
+loginInCrmWithPageObjTest  Time elapsed: 15.752 s  <<< ERROR!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=93.0.4577.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MB451055', ip: 'fd00:6868:6868:0:cb8:9511:9b61:dc70%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: /var/folders/gg/xt_q_13d2kz...}, goog:chromeOptions: {debuggerAddress: localhost:54916}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa38bf9eb0fe547d93f6ef37bb2281a6
+	at ru.geekbrains.lesson6.PageObjectTest.loginInCrmWithPageObjTest(PageObjectTest.java:25)
+

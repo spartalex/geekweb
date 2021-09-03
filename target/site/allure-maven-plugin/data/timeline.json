@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "MB451055",
+    "children" : [ {
+      "name" : "7105@MB451055.main(1)",
+      "children" : [ {
+        "name" : "loginInCrmWithPageObjTest()",
+        "uid" : "8444918182a35016",
+        "parentUid" : "ef38e0aec9fcd0d481d9b995f3aabe1d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1630607185715,
+          "stop" : 1630607201337,
+          "duration" : 15622
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ef38e0aec9fcd0d481d9b995f3aabe1d"
+    } ],
+    "uid" : "739ea77c13b7ca5bd85f58e5c668b4d2"
+  } ],
+  "name" : "timeline"
+}

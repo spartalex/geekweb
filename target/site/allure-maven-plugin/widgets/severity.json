@@ -1,0 +1,11 @@
+[ {
+  "uid" : "8444918182a35016",
+  "name" : "loginInCrmWithPageObjTest()",
+  "time" : {
+    "start" : 1630607185715,
+    "stop" : 1630607201337,
+    "duration" : 15622
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

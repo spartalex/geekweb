@@ -1,5 +1,6 @@
 package ru.geekbrains.lesson6;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -15,6 +16,7 @@ public class CreateExpensePage extends BaseView {
     @FindBy(name = "crm_expense_request[description]")
     public WebElement expenseRequestName;
 
+    @Step("Заполнить имя")
     public CreateExpensePage fillName(String name) {
         expenseRequestName.sendKeys(name);
         return this;
@@ -23,6 +25,7 @@ public class CreateExpensePage extends BaseView {
     @FindBy(name = "crm_expense_request[businessUnit]")
     public WebElement businessUnitSelect;
 
+    @Step("Выбрать бизнесс юнит")
     public CreateExpensePage selectBusinessUnit(String businessUnit) {
         new Select(businessUnitSelect).selectByVisibleText(businessUnit);
         return this;
@@ -31,6 +34,7 @@ public class CreateExpensePage extends BaseView {
     @FindBy(name = "crm_expense_request[expenditure]")
     public WebElement selectExpenditure;
 
+    @Step("Выбрать expenditure")
     public CreateExpensePage selectExpenditure(String expenditure) {
         new Select(selectExpenditure).selectByVisibleText(expenditure);
         return this;
@@ -39,6 +43,7 @@ public class CreateExpensePage extends BaseView {
     @FindBy(name = "crm_expense_request[currency]")
     public WebElement selectCurrency;
 
+    @Step("Выбрать валюту")
     public CreateExpensePage selectCurrency(String currency) {
         new Select(selectCurrency).selectByVisibleText(currency);
         return this;
@@ -47,6 +52,7 @@ public class CreateExpensePage extends BaseView {
     @FindBy(name = "crm_expense_request[sumPlan]")
     public WebElement sumPlan;
 
+    @Step("Заполнить сумму")
     public CreateExpensePage fillSumPlan(String sum) {
         sumPlan.sendKeys(sum);
         return this;
@@ -58,6 +64,7 @@ public class CreateExpensePage extends BaseView {
     @FindBy(xpath = "//td[@data-handler='selectDay']/a")
     public List<WebElement> daysInCalendar;
 
+    @Step("Выбрать дату")
     public CreateExpensePage selectDatePlan(String dayOfMonth) {
         plannedDate.click();
         daysInCalendar.stream()

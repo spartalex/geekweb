@@ -12,6 +12,7 @@ public class SetupBrowserExamples {
 
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions
+                .addArguments("--headless")
                 .addArguments("--disable-notifications")
                 .addArguments("user-agent=Googlebot/2.1 (+http://www.google.com/bot.html)");
 

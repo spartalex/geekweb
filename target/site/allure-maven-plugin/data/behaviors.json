@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Заявки на расходы",
+    "children" : [ {
+      "name" : "loginInCrmWithPageObjTest()",
+      "uid" : "8444918182a35016",
+      "parentUid" : "3c53214df851329d8c58080acfec271a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1630607185715,
+        "stop" : 1630607201337,
+        "duration" : 15622
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3c53214df851329d8c58080acfec271a"
+  } ],
+  "name" : "behaviors"
+}
