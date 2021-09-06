@@ -45,6 +45,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/src/test/java/ru/geekbrains/lesson8/StepDefenitions.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/src/test/resources/lesson8/CreateExpenseRequest.feature">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>

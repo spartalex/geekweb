@@ -8,6 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import static org.hamcrest.MatcherAssert.assertThat;
+import static ru.geekbrains.lesson8.CreateExpenseTestDataElements.baseCreateExpenseData;
 import static ru.yandex.qatools.htmlelements.matchers.WebElementMatchers.isDisplayed;
 
 @Story("Заявки на расходы")
@@ -17,6 +18,7 @@ public class PageObjectTest extends BaseTest {
     @Description("Тест логина и создания заявки на расход")
     @TmsLink("234")
     void loginInCrmWithPageObjTest() throws InterruptedException {
+
         driver.get("https://crm.geekbrains.space/");
         new LoginPage(driver)
                 .fillInputLogin("Applanatest1")
@@ -33,7 +35,7 @@ public class PageObjectTest extends BaseTest {
                 .selectExpenditure("01101 - ОС: вычислительная техника инфраструктуры")
                 .selectCurrency("Доллар США")
                 .fillSumPlan("1000")
-                .selectDatePlan("20")
+                .selectDatePlan(baseCreateExpenseData.getDate())
                 .saveAndCloseButton.click();
 
         webDriverWait.until(
